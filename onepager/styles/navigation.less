@@ -1,0 +1,37 @@
+ul#navigation {
+	margin-top:25px;
+	margin-right:-5px;
+	position:relative;
+	width:220px;
+	z-index:999;
+
+	li {
+		border:none;
+		background:none;
+		margin:0;
+		padding:0;
+		
+		a {
+			&:link, &:visited {
+				text-decoration:none;
+				font-family:'OstrichSansBlack', Arial, sans-serif;
+				margin-bottom:1px;
+				width:auto;
+				font-size:20px;
+				text-align:left;
+				padding-left:10px !important;
+				display:block;
+				transition:all 200ms;
+				-webkit-transition:all 200ms;
+				-moz-transition:all 200ms;
+				-o-transition:all 200ms;
+				padding:5px 10px 5px 0;
+			}
+
+			&:hover, &:active {
+				background:#1b1b1b;
+				color:#FFF;
+			}
+		}
+	}
+}

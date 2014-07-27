@@ -1,0 +1,29 @@
+{
+	"USER_DS" : [
+				{
+					"userId" : "haibane",
+					"userNm" : "고재도",	
+					"deptCd" : "001",
+					"posCd"  : "001",
+					"password" : "1234",
+					"sex" : "0",
+					"telNo" : "01096633455",
+					"incoDay" : "20120217",
+					"retrDay": null,
+					"imgPath" : "images/haibane.jpg"
+				},
+				{
+					"userId" : "haibsss",
+					"userNm" : "조한행",	
+					"deptCd" : "001",
+					"posCd"  : "001",
+					"password" : "1234",
+					"sex" : "0",
+					"telNo" : "01096633455",
+					"incoDay" : "20120217",
+					"retrDay": null,
+					"imgPath" : "images/haibane.jpg"
+				}	
+]
+
+}

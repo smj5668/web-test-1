@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<!-- link:css -->
+	<link rel="stylesheet" href="pen/reset.css">
+	<link rel="stylesheet" href="style.css">
+		
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<img src="pen/logo.PNG" alt="">
+			<p>Common Management System</p>
+		</div>
+		<ul id="navi">
+			<li><a href="main.html">Main</a></li>
+			<li><a href="codeMnge.html">코드관리</a></li>
+			<li><a href="userMnge.html">인사관리</a></li>
+			<li><a href="mnge.html">관리</a></li>
+		</ul>
+	</div>
+	<div id="content-wrapper">
+		<div id="content">
+			<div id="search-panel">
+				<label for="search-dept">부서</label>
+				<select name="search-dept" id="search-dept">	
+					<option value="1">인사팀</option>
+					<option value="2">회계팀</option>
+					<option value="3">경영팀</option>
+					<option value="4">교육팀</option>
+				</select>
+				<label for="search-pos">직급</label>
+				<select name="search-pos" id="search-pos">
+					<option value="1">사장</option>
+					<option value="2">부사장</option>
+					<option value="3">차장</option>
+					<option value="4">대리</option>
+				</select>
+				<label for="search-sabun">사번</label>
+				<input type="text" id="search-sabun">
+				<label for="search-name">이름</label>
+				<input type="text" id="search-name">
+				<button>조회</button>
+			</div>
+			<div id="grid-panel">
+				<table>
+					<thead>
+						<tr>
+							<th>사번</th>
+							<th>이름</th>
+							<th>부서</th>
+							<th>직급</th>
+							<th>성별</th>
+							<th>입사일</th>
+							<th>퇴사일</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>고재도</td>
+							<td>인사팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-2</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>추병조</td>
+							<td>회계팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-3</td>
+							<td>2014-2-1</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<form action="" id="detail-form">
+				<div id="crud-panel">
+					<button>추가</button>
+					<button>삭제</button>
+					<button>저장</button>
+				</div>
+				<div id="detail-panel">
+					<label for="detail-sabun">사번</label>
+					<input id="detail-sabun" type="text">
+					<label for="detail-name">이름</label>
+					<input id="detail-name" type="text">
+					<label for="detail-password">비밀번호</label>
+					<input id="detail-password" type="password">
+					<label for="detail-gender">성별</label>
+					<select name="detail-gender" id="detail-gender">
+						<option value="1">남자</option>
+						<option value="2">여자</option>
+					</select>
+					<label for="detail-dept">부서</label>
+					<select name="detail-dept" id="detail-dept">
+						<option value="1">인사팀</option>
+						<option value="2">회계팀</option>
+						<option value="3">경영팀</option>
+						<option value="4">교육팀</option>
+					</select>
+					<label for="detail-pos">직급</label>
+					<select name="detail-pos" id="detail-pos">
+						<option value="1">사장</option>
+						<option value="2">부사장</option>
+						<option value="3">차장</option>
+						<option value="4">대리</option>
+					</select>
+					<label for="detail-inco-day">입사일</label>
+					<input id="detail-inco-day" type="date">
+					<label for="detail-retr-day">퇴사일</label>
+					<input id="detail-retr-day" type="date">
+					<label for="detail-tel">전화번호</label>
+					<input type="text" id="detail-tel">
+				</div>
+			</form>
+		</div>
+	</div>
+	<div id="footer">동서대학교 웹 교육</div>
+</body>
+</html>

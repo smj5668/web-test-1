@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap 3 동서대학교 강의</title>
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<style>
+		body{
+			padding-top: 70px;
+		}
+	</style>
+</head>
+<body>
+	<!-- header.navbar>navbar-fixed-top -->
+	<header class="navbar navbar-inverse navbar-fixed-top">
+		<!-- .container>.navbar-header>a.navbar-brand -->
+		<div class="container">
+			<div class="navbar-header">
+				<!-- button.navbar-toggle[data-togle="collapse"][data-target="navbar-contents"] -->
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-contents">
+					<span class="sr-only">메뉴열기</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">동서대학교 웹 교육</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar-contents">
+				<ul class="nav navbar-nav" role="navigation">
+					<li><a href="#">강의</a></li>
+					<li><a href="#">도서</a></li>
+					<li><a href="#">개발가이드</a></li>
+					<li><a href="#">소스파일</a></li>
+					<li><a href="#">강사목록</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Sign In</a></li>
+					<li><button class="btn btn-warning navbar-btn btn-sm">둘러보기</button></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<section>
+			<div class="well well-lg text-center">
+				<h1>많은 양의 강의들과 도서들이 웹 개발을 도와주기 위해 준비되어 있습니다!</h1>
+				<!-- ul>li*5>h3>a[href="#"] -->
+				<ul class="list-unstyled">
+					<li>
+						<h3><a href="#">웹 개발</a></h3>
+					</li>
+					<li>
+						<h3><a href="#">스프링 프레임워크</a></h3>
+					</li>
+					<li>
+						<h3><a href="#">그래픽 디자인</a></h3>
+					</li>
+					<li>
+						<h3><a href="#">모션 그래픽</a></h3>
+					</li>
+					<li>
+						<h3>기타 등등</h3>
+					</li>
+				</ul>
+				<hr>
+				<a href="#" class="btn btn-warning btn-lg">Sign UP</a> or <a href="#">둘러보기</a>
+			</div>
+		</section>
+
+		<section>
+			<div class="row">
+				<div class="col-lg-9">
+					<ul class="list-unstyled">
+						<li>
+							<article>
+								<div class="media">
+									<a href="#" class="pull-left">
+										<img class="img-circle media-object" src="http://placehold.it/100x100" alt="lmage">
+									</a>
+									<!-- div.media-body>h1.media-heading{PSD에서 HTML & CSS으로 변경하고 개발하기} -->
+									<div class="media-body">
+										<h1 class="media-heading">PSD에서 HTML & CSS으로 변경하고 개발하기</h1>
+										<ul class="list-inline">
+											<li>
+												<span class="glyphicon glyphicon-time"></span>
+												2014년 12월 15일
+											</li>
+											<li>
+												<span class="glyphicon glyphicon-open"></span>
+												<a href="#">웹 개발</a>
+											</li>
+										</ul>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti odio, molestiae illum illo animi molestias eligendi nisi libero soluta aperiam porro qui tempore, consectetur et recusandae expedita quod, ut fuga!
+										</p>
+										<ul class="list-inline pull-right">
+											<li>
+												<span class="label label-default">13 비디오 수업</span>
+											</li>
+											<li>
+												<a href="#" class="btn btn-warning">강의보기</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</article>
+							<hr>
+						</li>
+						<li>
+							<article>
+								<div class="media">
+									<a href="#" class="pull-left">
+										<img class="img-circle media-object" src="http://placehold.it/100x100" alt="lmage">
+									</a>
+									<!-- div.media-body>h1.media-heading{PSD에서 HTML & CSS으로 변경하고 개발하기} -->
+									<div class="media-body">
+										<h1 class="media-heading">PSD에서 HTML & CSS으로 변경하고 개발하기</h1>
+										<ul class="list-inline">
+											<li>
+												<span class="glyphicon glyphicon-time"></span>
+												2014년 12월 15일
+											</li>
+											<li>
+												<span class="glyphicon glyphicon-open"></span>
+												<a href="#">웹 개발</a>
+											</li>
+										</ul>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti odio, molestiae illum illo animi molestias eligendi nisi libero soluta aperiam porro qui tempore, consectetur et recusandae expedita quod, ut fuga!
+										</p>
+										<ul class="list-inline pull-right">
+											<li>
+												<span class="label label-default">13 비디오 수업</span>
+											</li>
+											<li>
+												<a href="#" class="btn btn-warning">강의보기</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</article>
+							<hr>
+						</li>
+						<li>
+							<article>
+								<div class="media">
+									<a href="#" class="pull-left">
+										<img class="img-circle media-object" src="http://placehold.it/100x100" alt="lmage">
+									</a>
+									<!-- div.media-body>h1.media-heading{PSD에서 HTML & CSS으로 변경하고 개발하기} -->
+									<div class="media-body">
+										<h1 class="media-heading">PSD에서 HTML & CSS으로 변경하고 개발하기</h1>
+										<ul class="list-inline">
+											<li>
+												<span class="glyphicon glyphicon-time"></span>
+												2014년 12월 15일
+											</li>
+											<li>
+												<span class="glyphicon glyphicon-open"></span>
+												<a href="#">웹 개발</a>
+											</li>
+										</ul>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti odio, molestiae illum illo animi molestias eligendi nisi libero soluta aperiam porro qui tempore, consectetur et recusandae expedita quod, ut fuga!
+										</p>
+										<ul class="list-inline pull-right">
+											<li>
+												<span class="label label-default">13 비디오 수업</span>
+											</li>
+											<li>
+												<a href="#" class="btn btn-warning">강의보기</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</article>
+							<hr>
+						</li>
+					</ul>
+				</div>
+				<aside class="col-lg-3">
+					<div>
+						<form action="">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="검색하기">
+							</div>
+							<div class="form-group">
+								<div class="row">
+									<div class="col-lg-7 col-lg-offset-3">
+										<select name="topic" id="topic" class="form-control">
+											<option value="" val="1">모든 컨텐츠</option>
+											<option value="" val="2">강의</option>
+											<option value="" val="3">도서</option>
+											<option value="" val="4">개발가이드</option>
+											<option value="" val="5">개발소스</option>
+											<option value="" val="6">강사목록</option>
+										</select>
+									</div>
+									<div class="col-lg-2">
+										<!-- button.btn.btn-sm.btn-warning.pull-right>span.glyphicon.glyphicon-search -->
+										<button class="btn btn-sm btn-warning pull-right">
+											<span class="glyphicon glyphicon-search"></span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					
+					<hr>
+
+					<div>
+						<p>
+							<strong>Topics:</strong>
+						</p>
+						<!-- .list-group>a[#].list-group-item{Topic $}*5>span.badge{12} -->
+						<div class="list-group">
+							<a href="#" class="list-group-item">
+								Topic 1<span class="badge">12</span></a>
+							<a href="#" class="list-group-item">
+								Topic 2<span class="badge">12</span></a>
+							<a href="#" class="list-group-item">
+								Topic 3<span class="badge">12</span></a>
+							<a href="#" class="list-group-item">
+								Topic 4<span class="badge">12</span></a>
+							<a href="#" class="list-group-item">
+								Topic 5<span class="badge">12</span></a>
+
+						</div>
+					</div>
+	
+					<hr>
+
+					<p class="text-center">
+						가입할 준비가 되었나요?<br>
+						<a href="#">Sign In</a>
+					</p>
+
+					<hr>
+
+					<div>
+						<p>
+							<strong>곧 추가될 강의 목록:</strong>
+						</p>
+						<!-- ul.media-list>li.media*3>a.pull-left>img[src="http://placehold.it/50x50"][alt="추가될 강의"].media-object.img-circle^.media-body>h5.media-heading{추가될 강의 $}+p.text-muted>small{아무개 강사}^+span.label.label-default{3월} -->
+						<ul class="media-list">
+							<li class="media">
+								<a href="" class="pull-left"><img src="http://placehold.it/50x50" alt="추가될 강의" class="media-object img-circle"></a>
+								<div class="media-body">
+									<h5 class="media-heading">추가될 강의 1</h5>
+									<p class="text-muted"><small>아무개 강사</small></p>
+									<span class="label label-default">3월</span>
+								</div>
+							</li>
+							<li class="media">
+								<a href="" class="pull-left"><img src="http://placehold.it/50x50" alt="추가될 강의" class="media-object img-circle"></a>
+								<div class="media-body">
+									<h5 class="media-heading">추가될 강의 2</h5>
+									<p class="text-muted"><small>아무개 강사</small></p>
+									<span class="label label-default">3월</span>
+								</div>
+							</li>
+							<li class="media">
+								<a href="" class="pull-left"><img src="http://placehold.it/50x50" alt="추가될 강의" class="media-object img-circle"></a>
+								<div class="media-body">
+									<h5 class="media-heading">추가될 강의 3</h5>
+									<p class="text-muted"><small>아무개 강사</small></p>
+									<span class="label label-default">3월</span>
+								</div>
+							</li>
+						</ul>
+						<p class="text-center">
+							<a href="#">추천강의 보기&rarr;</a>
+						</p>
+					</div>
+					<hr>
+				</aside>
+			</div>
+
+			<hr>
+
+			<p class="pull-right"><small>page 1 of 10</small></p>
+			<ul class="pagination">
+				<li class="active"><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">Last &raquo; </a></li>
+			</ul>
+		</section>
+		
+		<footer>
+			<div class="well">
+				<h1>동서대학교 웹 강의는 아주 좋은 프로그램입니다. 많이들 참가해주세요!!</h1>
+			</div>
+			<!-- .row>.col-lg-2*3>h5{Footer section $}+ul.list-unstyled>li*3>a[#]{Footer link $}+^^^col-lg-6> -->
+			<!-- .row>.col-lg-2*3>h5{Footer section $}+ul.list-unstyled>li*3>a[#]{Footer link $}+^^^.col-lg-6>h5{동서대 웹 교육 관련 사이트}+.row>.col-lg-4*3>ul.list-unstyled>li*3>p>img[src="http://placehold.it/20x20"][alt="사이트 이미지"]+a[#]{Site name} -->
+			<div class="row">
+				<div class="col-lg-2">
+					<h5>Footer section 1</h5>
+					<ul class="list-unstyled">
+						<li><a href="#">Footer link 1</a></li>
+						<li><a href="#">Footer link 2</a></li>
+						<li><a href="#">Footer link 3</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2">
+					<h5>Footer section 2</h5>
+					<ul class="list-unstyled">
+						<li><a href="#">Footer link 1</a></li>
+						<li><a href="#">Footer link 2</a></li>
+						<li><a href="#">Footer link 3</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2">
+					<h5>Footer section 3</h5>
+					<ul class="list-unstyled">
+						<li><a href="#">Footer link 1</a></li>
+						<li><a href="#">Footer link 2</a></li>
+						<li><a href="#">Footer link 3</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-6">
+					<h5>동서대 웹 교육 관련 사이트</h5>
+					<div class="row">
+						<div class="col-lg-4">
+							<ul class="list-unstyled">
+								<li>
+									<p><img src="http://placehold.it/20x20" alt="사이트 이미지"><a href="#">Site name</a></p>
+								</li>
+								<li>
+									<p><img src="http://placehold.it/20x20" alt="사이트 이미지"><a href="#">Site name</a></p>
+								</li>
+								<li>
+									<p><img src="http://placehold.it/20x20" alt="사이트 이미지"><a href="#">Site name</a></p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-4">
+							<ul class="list-unstyled">
+								<li>
+									<p><img src="http://placehold.it/20x20" alt="사이트 이미지"><a href="#">Site name</a></p>
+								</li>
+								<li>
+									<p><img src="http://placehold.it/20x20" alt="사이트 이미지"><a href="#">Site name</a></p>
+								</li>
+								<li>
+									<p><img src="http://placehold.it/20x20" alt="사이트 이미지"><a href="#">Site name</a></p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-4">
+							<ul class="list-unstyled">
+								<li>
+									<p><img src="http://placehold.it/20x20" alt="사이트 이미지"><a href="#">Site name</a></p>
+								</li>
+								<li>
+									<p><img src="http://placehold.it/20x20" alt="사이트 이미지"><a href="#">Site name</a></p>
+								</li>
+								<li>
+									<p><img src="http://placehold.it/20x20" alt="사이트 이미지"><a href="#">Site name</a></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<p>
+				<img src="http://placehold.it/100x20" alt="로고">
+				<small>Copyright 동서대</small>
+			</p>
+		</footer>
+	</div>
+
+
+
+	<!-- SCRIPTS -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

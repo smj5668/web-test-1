@@ -1,0 +1,34 @@
+{
+	"DS_CODE" : [
+					{
+						"cdDetailNo" : "a",
+						"cdDetailName" : "사장",
+						"ord":1	
+					},
+					{
+						"cdDetailNo" : "b",
+						"cdDetailName" : "부장",
+						"ord":2
+					},
+					{
+						"cdDetailNo" : "c",
+						"cdDetailName" : "차장",
+						"ord":3	
+					},
+					{
+						"cdDetailNo" : "d",
+						"cdDetailName" : "과장",
+						"ord":4	
+					},
+					{
+						"cdDetailNo" : "e",
+						"cdDetailName" : "대리",
+						"ord":5	
+					},
+					{
+						"cdDetailNo" : "f",
+						"cdDetailName" : "사원",
+						"ord":6
+					}			
+				]
+}

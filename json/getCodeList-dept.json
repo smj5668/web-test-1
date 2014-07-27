@@ -1,0 +1,29 @@
+{
+	"DS_CODE" : [
+					{
+						"cdDetailNo" : "a",
+						"cdDetailName" : "프레임워크센터",
+						"ord":1	
+					},
+					{
+						"cdDetailNo" : "b",
+						"cdDetailName" : "인사팀",
+						"ord":2
+					},
+					{
+						"cdDetailNo" : "c",
+						"cdDetailName" : "재경팀",
+						"ord":3	
+					},
+					{
+						"cdDetailNo" : "d",
+						"cdDetailName" : "전산팀",
+						"ord":4	
+					},
+					{
+						"cdDetailNo" : "e",
+						"cdDetailName" : "영업팀",
+						"ord":5	
+					}		
+				]
+}

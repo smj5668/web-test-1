@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap 3 동새대학교 강의</title>
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	
+	<div class="container">
+		<!-- HEADER -->
+		<header class="jumbotron">
+			<h1>Bootstrap 3 동새대학교 강의</h1>
+		</header>
+
+		
+
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="list-group">
+					<a href="lesson1-grid.html" class="list-group-item ">
+						<h5 class="list-group-item-heading">Lesson 1</h5>
+						<p class="list-group-item-text">New grid system</p>
+					</a>
+					<a href="lesson2-glphicons-icon.html" class="list-group-item">
+						<h5 class="list-group-item-heading">Lesson 2</h5>
+						<p class="list-group-item-text">New Glyphicons icon font</p>
+					</a>
+					<a href="lesson3-list-group.html" class="list-group-item">
+						<h5 class="list-group-item-heading">Lesson 3</h5>
+						<p class="list-group-item-text">New component: list group</p>
+					</a>
+					<a href="lesson4-panel.html" class="list-group-item">
+						<h5 class="list-group-item-heading">Lesson 4</h5>
+						<p class="list-group-item-text">New component: panel</p>
+					</a>
+					<a href="lesson5-navbar.html" class="list-group-item active">
+						<h5 class="list-group-item-heading">Lesson 5</h5>
+						<p class="list-group-item-text">Improved navbar and modals</p>
+					</a>
+					<a href="lesson6-removed-components.html" class="list-group-item">
+						<h5 class="list-group-item-heading">Lesson 6</h5>
+						<p class="list-group-item-text">Removed components: submenus, typehead, accordion</p>
+					</a>
+					<a href="lesson7-exercise.html" class="list-group-item">
+						<h5 class="list-group-item-heading">Lesson 7</h5>
+						<p class="list-group-item-text">Extended documentation</p>
+					</a>
+
+				</div>
+				
+			</div> <!-- end col-lg-3 -->
+
+			<div class="col-lg-9">
+				<div class="page-header">
+					<h1>Lesson 5. <small>Improved navbar and modals</small></h1>	
+				</div> <!-- end page-header -->
+
+				<!-- nav.navbar.navber-default[role="naviagation"] -->
+				<nav class="navbar navbar-default" role="naviagation">
+					<div class="navbar-header" data-toggle="collapse" data-target="#test-navbar">
+						<button class="navbar-toggle">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- a.navbar-brand[href="#"]{로고} -->
+						<a href="#" class="navbar-brand">로고</a>
+					</div>
+
+					<div class="collapse navbar-collapse" id="test-navbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">link</a></li>
+							<li><a href="#">Link</a></li>
+						</ul>
+					</div>
+				</nav>
+
+				<div class="modal fade" id="modal-test">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title">
+									이건 모달 타이틀입니다.
+								</h4>
+							</div>
+							<div class="modal-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat commodi reprehenderit pariatur!
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-default" data-dismiss="modal">close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<button class="btn btn-primary" data-toggle="modal" data-target="#modal-test">모달창 열기</button>
+		
+			</div> <!-- end col-lg-9 -->
+		</div> <!-- end row -->
+
+
+
+		<!-- FOOTER -->
+		<footer>
+			<hr>
+			
+			<p><small>a <a href="https://tutsplus.com/">Tuts+</a> course by Adi Purdila</small></p>
+		</footer>
+	</div> <!-- end container -->
+
+
+
+	<!-- SCRIPTS -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

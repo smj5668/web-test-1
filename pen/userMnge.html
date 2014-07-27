@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="reset.css">
+	<style>
+		body {
+			background-color: #f0f0f0;
+		}
+		#header, #content-wrapper {
+			width: 900px;
+			margin: 0 auto;
+		}
+		#header {
+			height: 80px;
+		}
+		#logo {
+			float: left;
+			padding-left: 45px;
+		}
+			#logo img {
+				height: 60px;
+			}
+			#logo p {
+				display: inline-block;
+				width: 95px;
+			}
+		#navi {
+			float: left;
+		}
+			#navi li {
+				float: left;
+				margin-top: 25px;
+				width: 125px;
+				height: 45px;
+				text-align: center;
+				background-color: black;
+				color: white;
+			}
+			#navi a {
+				color: white;
+				vertical-align: -15px;
+				text-decoration: none;
+			}
+		
+		#content-wrapper {
+			padding: 10px 0;
+			background-color: black;
+		}
+
+		#content {
+			background-color: white;
+		}
+
+		#search-panel {
+			padding: 10px;
+			border-bottom: 1px solid black;
+		}
+		
+		#search-panel select, #search-panel input {
+			width: 100px;
+		}
+
+		#search-panel button {
+			float: right;
+		}
+
+		#grid-panel {
+			margin: 10px;
+			height: 200px;
+			border: 1px solid #a7c942;
+			overflow: auto;
+		}
+
+		#grid-panel table {
+			width: 100%;
+			text-align: center;
+		}
+
+		#grid-panel table thead tr th {
+			background-color: #a7c942;
+			color: white;
+		}
+
+		#grid-panel table td {
+			border: 1px solid #a7c942;
+			height: 25px;
+			vertical-align: middle;
+		}
+
+		form#detail-form {
+			padding: 10px;
+		}
+
+		#crud-panel button {
+			float: right;
+		}
+
+		#detail-panel {
+			padding-top: 20px;
+			clear: both;
+		}
+
+		#detail-panel label {
+			width: 100px;
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+
+		#detail-panel input {
+			width: 300px;
+			margin-bottom: 10px;
+		}
+
+		#detail-panel select {
+			width: 300px;
+			margin-bottom: 10px;
+		}
+
+		#footer {
+			padding: 10px;
+			text-align: center;
+			background-color: black;
+			color: white;
+			border-top: 1px solid #414141;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<img src="logo.PNG" alt="">
+			<p>Common Management System</p>
+		</div>
+		<ul id="navi">
+			<li><a href="main.html">Main</a></li>
+			<li><a href="codeMnge.html">코드관리</a></li>
+			<li><a href="userMnge.html">인사관리</a></li>
+			<li><a href="mnge.html">관리</a></li>
+		</ul>
+	</div>
+	<div id="content-wrapper">
+		<div id="content">
+			<div id="search-panel">
+				<label for="search-dept">부서</label>
+				<select name="search-dept" id="search-dept">
+					<option value="1">인사팀</option>
+					<option value="2">회계팀</option>
+					<option value="3">경영팀</option>
+					<option value="4">교육팀</option>
+				</select>
+				<label for="search-pos">직급</label>
+				<select name="search-pos" id="search-pos">
+					<option value="1">사장</option>
+					<option value="2">부사장</option>
+					<option value="3">차장</option>
+					<option value="4">대리</option>
+				</select>
+				<label for="search-sabun">사번</label>
+				<input type="text" id="search-sabun">
+				<label for="search-name">이름</label>
+				<input type="text" id="search-name">
+				<button>조회</button>
+			</div>
+			<div id="grid-panel">
+				<table>
+					<thead>
+						<tr>
+							<th>사번</th>
+							<th>이름</th>
+							<th>부서</th>
+							<th>직급</th>
+							<th>성별</th>
+							<th>입사일</th>
+							<th>퇴사일</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>고재도</td>
+							<td>인사팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-2</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>추병조</td>
+							<td>회계팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-3</td>
+							<td>2014-2-1</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>추병조</td>
+							<td>회계팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-3</td>
+							<td>2014-2-1</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>추병조</td>
+							<td>회계팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-3</td>
+							<td>2014-2-1</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>추병조</td>
+							<td>회계팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-3</td>
+							<td>2014-2-1</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>추병조</td>
+							<td>회계팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-3</td>
+							<td>2014-2-1</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>추병조</td>
+							<td>회계팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-3</td>
+							<td>2014-2-1</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>추병조</td>
+							<td>회계팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-3</td>
+							<td>2014-2-1</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>추병조</td>
+							<td>회계팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-3</td>
+							<td>2014-2-1</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>추병조</td>
+							<td>회계팀</td>
+							<td>차장</td>
+							<td>남자</td>
+							<td>2013-2-3</td>
+							<td>2014-2-1</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<form action="" id="detail-form">
+				<div id="crud-panel">
+					<button>추가</button>
+					<button>삭제</button>
+					<button>저장</button>
+				</div>
+				<div id="detail-panel">
+					<label for="detail-sabun">사번</label>
+					<input type="text">
+					<label for="detail-name">이름</label>
+					<input type="text">
+					<label for="detail-password">비밀번호</label>
+					<input type="password">
+					<label for="detail-gender">성별</label>
+					<select name="detail-gender" id="detail-gender">
+						<option value="1">남자</option>
+						<option value="2">여자</option>
+					</select>
+					<label for="detail-dept">부서</label>
+					<select name="detail-dept" id="detail-dept">
+						<option value="1">인사팀</option>
+						<option value="2">회계팀</option>
+						<option value="3">경영팀</option>
+						<option value="4">교육팀</option>
+					</select>
+					<label for="detail-pos">직급</label>
+					<select name="detail-pos" id="detail-pos">
+						<option value="1">사장</option>
+						<option value="2">부사장</option>
+						<option value="3">차장</option>
+						<option value="4">대리</option>
+					</select>
+					<label for="detail-inco-day">입사일</label>
+					<input type="date" id="deatil-inco-day">
+					<label for="detail-retr-day">퇴사일</label>
+					<input type="date" id="deatil-retr-day">
+					<label for="detail-tel">전화번호</label>
+					<input type="text" id="detail-tel">
+				</div>
+			</form>
+		</div>
+	</div>
+	<div id="footer">동서대학교 웹 교육</div>
+</body>
+</html>

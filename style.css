@@ -1,0 +1,167 @@
+body {
+  /*bgc*/
+  background-color: #f0f0f0;
+}
+#header,
+#content-wrapper {
+  /*w*/
+  width: 900px;
+  /*m0-auto*/
+  margin: 0px auto;
+  /*mt10*/
+  margin-top: 10px;
+}
+/*헤더 영역*/
+#header {
+  /*h65*/
+  height: 65px;
+  /*로고 영역*/
+  /*네비게이션 영역*/
+}
+#header #logo {
+  /*fll*/
+  float: left;
+  /*pr45*/
+  padding-right: 45px;
+}
+#header #logo img {
+  /*h60*/
+  height: 60px;
+  border-radius: 10px;
+}
+#header #logo p {
+  /*d-ib*/
+  display: inline-block;
+  /*w95*/
+  width: 95px;
+}
+#header #navi {
+  /*fl-l*/
+  float: left;
+}
+#header #navi li {
+  /*lsn
+			list-style: none;*/
+  /*mt25*/
+  margin-top: 25px;
+  /*fl-l*/
+  float: left;
+  width: 125px;
+  height: 40px;
+  /*padding: 60px 15px;*/
+  /*ta-c*/
+  text-align: center;
+  /*bgc*/
+  background-color: black;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+#header #navi li a {
+  color: white;
+  /*vea-15*/
+  vertical-align: -15px;
+  /*td-n*/
+  text-decoration: none;
+}
+/*컨텐츠 영역*/
+#content-wrapper {
+  /*p10-0*/
+  padding: 10px 3px;
+  /*bgc*/
+  background-color: #000000;
+  border-radius: 10px;
+}
+#content {
+  /*bgc*/
+  background-color: #ffffff;
+  border-radius: 10px;
+  /*검색 영역*/
+  /*그리드 패널 영역*/
+}
+#content #search-panel {
+  /*p10*/
+  padding: 10px;
+  /*bdb+*/
+  border-bottom: 1px solid #000;
+}
+#content #search-panel button {
+  /*fl-r*/
+  float: right;
+}
+#content #search-panel select,
+#content #search-panel input {
+  /*w100*/
+  width: 100px;
+}
+#content #grid-panel {
+  /*m10*/
+  margin: 10px;
+  /*h200*/
+  height: 200px;
+  /*bd+*/
+  border: 1px solid #000;
+  /*ov-a*/
+  overflow: auto;
+}
+#content #grid-panel table {
+  /*w100%*/
+  width: 100%;
+  /*ta-c*/
+  text-align: center;
+}
+#content #grid-panel table tr td {
+  /*bgc*/
+  background-color: #A7C942;
+  /*col*/
+  color: white;
+  border: 1px solid #1F3E5A;
+  height: 25px;
+  /*va-m*/
+  vertical-align: middle;
+}
+#content #grid-panel table tr th {
+  background-color: blue;
+  color: yellow;
+}
+#content form#detail-form {
+  /*p10*/
+  padding: 10px;
+}
+#content form#detail-form #crud-panel button {
+  /*fl-r*/
+  float: right;
+}
+#content form#detail-form #detail-panel {
+  margin: 20px;
+  /*c-b*/
+  clear: both;
+}
+#content form#detail-form #detail-panel label {
+  width: 85px;
+  /*d-ib*/
+  display: inline-block;
+  /*mb10*/
+  margin-bottom: 10px;
+}
+#content form#detail-form #detail-panel input {
+  width: 300px;
+  margin-bottom: 10px;
+}
+#content form#detail-form #detail-panel select {
+  width: 304px;
+  margin-bottom: 10px;
+}
+#content form#detail-form #detail-panel input#detail-sabun,
+#content form#detail-form #detail-panel input#detail-password,
+#content form#detail-form #detail-panel input#detail-inco-day,
+#content form#detail-form #detail-panel select#detail-dept {
+  margin-right: 30px;
+}
+/*푸터 영역*/
+#footer {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 1px solid #414141;
+}

@@ -1,0 +1,45 @@
+h1, h2{
+	color: #007e7e;
+}
+p.guarantee{
+	background-color: #a7cece;
+	padding: 25px;
+	padding-right: 80px;
+	margin: 30px;
+	margin-right: 270px;
+	background-image: url(images/background.gif);
+	background-repeat: no-repeat;
+	background-position: top right
+}
+div#elixir{
+	border: solid thin #007e7e;
+	width: 200px;
+	text-align: center;
+	line-height: 1.2;
+	padding: 0px 20px 0px 20px;
+	float: right;
+	background: url(images/cocktail.gif) repeat-x;
+}
+
+.title{
+	font-style: italic;
+}
+.author{
+	font-weight: bold;
+}
+
+a:hover{
+	border: 3px solid red;
+}
+a:visited{
+	color: red;
+}
+
+#elixir h2{
+	color: black;
+}
+
+#elixir h3{
+	color: #d12c47;
+}
+

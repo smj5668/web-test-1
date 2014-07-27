@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="pen/reset.css">
+	<style>
+		body{
+			/*bgc*/
+			background-color: #f0f0f0;
+		}
+		#header, #content-wrapper{
+			/*w*/
+			width: 900px;
+			/*m0-auto*/
+			margin: 0px auto;
+			/*mt10*/
+			margin-top: 10px;
+		}
+		#header{
+			/*h65*/
+			height: 65px;
+		}
+		#logo{
+			/*fll*/
+			float: left;
+			/*pr45*/
+			padding-right: 45px;
+		}
+			#logo img{
+				/*h60*/
+				height: 60px;
+
+				border-radius: 10px;
+			}
+			#logo p{
+				/*d-ib*/
+				display: inline-block;
+				/*w95*/
+				width: 95px;
+			}
+		/*네비게이션 영역*/
+		#navi{
+			/*fl-l*/
+			float: left;
+		}
+			#navi li{
+				/*lsn
+				list-style: none;*/
+				/*mt25*/
+				margin-top: 25px;
+				/*fl-l*/
+				float: left;
+				width: 125px;
+				height: 40px;
+				/*padding: 60px 15px;*/
+				/*ta-c*/
+				text-align: center;
+				/*bgc*/
+				background-color: black;
+
+				margin-left: 10px;
+				border-radius: 10px;
+			}
+			#navi li a{
+				color: white;
+				/*vea-15*/
+				vertical-align: -15px;
+				/*td-n*/
+				text-decoration: none;
+			}
+		/*컨텐츠 영역*/
+		#content-wrapper{
+			/*p10-0*/
+			padding: 10px 3px;
+			/*bgc*/
+			background-color: black;
+
+			border-radius: 10px;
+		}
+		#content{
+			/*bgc*/
+			background-color: white;
+
+			border-radius: 10px;
+		}
+		/*검색 영역*/
+		#add-panel{
+			/*p10*/
+			padding: 10px;
+			overflow: auto;
+			/*bdb+*/
+		}
+			.clear-fix{
+				overflow: auto;
+			}
+			#add-panel button{
+				/*fl-r*/
+				float: right;
+			}
+		/*그리드 패널 영역*/
+		#grid-panel{
+			padding: 10px;
+			/*h200*/
+			height: 440px;
+			/*bd+*/
+			
+			/*ov-a*/
+			overflow: auto;
+			clear: both;
+			border-top: 1px solid #000;
+		}
+			#grid-panel table{
+				/*w100%*/
+				width: 100%;
+				/*ta-c*/
+				text-align: center;
+			}
+			#grid-panel table tr td{
+				/*bgc*/
+				background-color: #A7C942;
+				/*col*/
+				color: white;
+				border: 1px solid #1F3E5A;
+				height: 25px;
+				/*va-m*/
+				vertical-align: middle;
+			}
+			#grid-panel table tr th{
+				border: 1px solid #1F3E5A;
+				background-color: blue;
+				color: yellow;
+			}
+		#footer{
+			padding: 10px;
+			text-align: center;
+			background-color: black;
+			color: white;
+			border: 1px solid #414141;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<img src="pen/logo.PNG" alt="">
+			<p>Common Management System</p>
+		</div>
+		<ul id="navi">
+			<li><a href="main.html">Main</a></li>
+			<li><a href="codeMnge.html">코드관리</a></li>
+			<li><a href="userMnge.html">인사관리</a></li>
+			<li><a href="mnge.html">관리</a></li>
+		</ul>
+	</div>
+	<div id="content-wrapper">
+		<div id="content">
+			<div id="add-panel" class="clear-fix">
+				<button>글쓰기</button>
+			</div>
+			<div id="grid-panel">
+				<table>
+					<thead>
+						<tr>
+							<th>글번호</th>
+							<th>제목</th>
+							<th>게시자</th>
+							<th>게시일</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>13</td>
+							<td>공지-공지글1</td>
+							<td>고재도</td>
+							<td>2012-08-29</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>공지-공지글2</td>
+							<td>고재도</td>
+							<td>2012-08-28</td>
+						</tr>
+						<tr>
+							<td>21</td>
+							<td>일반글3</td>
+							<td>고재도</td>
+							<td>2012-09-05</td>
+						</tr>
+						<tr>
+							<td>20</td>
+							<td>일반글2</td>
+							<td>고재도</td>
+							<td>2012-09-03</td>
+						</tr>
+						<tr>
+							<td>19</td>
+							<td>일반글1</td>
+							<td>고재도</td>
+							<td>2012-09-01</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+		</div>
+	</div>
+	<div id="footer">동서대학교 웹 교육</div>
+</body>
+</html>
